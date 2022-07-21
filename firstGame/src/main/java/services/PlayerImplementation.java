@@ -56,7 +56,7 @@ public class PlayerImplementation {
                 else{
                     j=j+1;
                     if(j==1){
-                        System.out.println("You havent found it");
+                        System.out.println("You havent found it. 4 Help Left");
                         System.out.println("Here is a help. \n Team:");
                             Query ql=session.createQuery("SELECT team FROM player where pname=?");
                             ql.setString(0,randomFinal);
